@@ -10,8 +10,8 @@ import javax.persistence.Table
 
 
 @Entity
-@Table(name = "quarts_management")
-class QuartsManagement(
+@Table(name = "quarts_event")
+class QuartsEvent(
     @Id
     @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
